@@ -4,16 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <Name>northwind</Name>
+    <Name>Northwind</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
-    <ProjectGuid>{1e07d791-1615-41fb-8a38-ec6e4b812a7a}</ProjectGuid>
+    <ProjectGuid>{8f340c6c-c24d-402b-8d0e-87cc15920f18}</ProjectGuid>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
-    <RootNamespace>northwind</RootNamespace>
-    <AssemblyName>northwind</AssemblyName>
+    <RootNamespace>Northwind</RootNamespace>
+    <AssemblyName>Northwind</AssemblyName>
     <ModelCollation>1033,CI</ModelCollation>
     <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
     <DeployToDatabase>True</DeployToDatabase>
@@ -125,46 +125,47 @@
     <Folder Include="Security\" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="dbo\Tables\Orders.sql" />
-    <Build Include="dbo\Tables\Products.sql" />
-    <Build Include="dbo\Tables\Order Details.sql" />
-    <Build Include="dbo\Tables\CustomerCustomerDemo.sql" />
-    <Build Include="dbo\Tables\CustomerDemographics.sql" />
-    <Build Include="dbo\Tables\Region.sql" />
-    <Build Include="dbo\Tables\Territories.sql" />
-    <Build Include="dbo\Tables\EmployeeTerritories.sql" />
-    <Build Include="dbo\Tables\Employees.sql" />
-    <Build Include="dbo\Tables\tblOldCustomer.sql" />
-    <Build Include="dbo\Tables\Categories.sql" />
-    <Build Include="dbo\Tables\Customers.sql" />
-    <Build Include="dbo\Tables\Shippers.sql" />
-    <Build Include="dbo\Tables\Suppliers.sql" />
-    <Build Include="dbo\Views\Customer and Suppliers by City.sql" />
-    <Build Include="dbo\Views\Alphabetical list of products.sql" />
-    <Build Include="dbo\Views\Current Product List.sql" />
-    <Build Include="dbo\Views\Orders Qry.sql" />
-    <Build Include="dbo\Views\Products Above Average Price.sql" />
-    <Build Include="dbo\Views\Products by Category.sql" />
-    <Build Include="dbo\Views\Quarterly Orders.sql" />
-    <Build Include="dbo\Views\Invoices.sql" />
-    <Build Include="dbo\Views\Order Details Extended.sql" />
-    <Build Include="dbo\Views\Order Subtotals.sql" />
-    <Build Include="dbo\Views\Product Sales for 1997.sql" />
-    <Build Include="dbo\Views\Category Sales for 1997.sql" />
-    <Build Include="dbo\Views\Sales by Category.sql" />
-    <Build Include="dbo\Views\Sales Totals by Amount.sql" />
-    <Build Include="dbo\Views\Summary of Sales by Quarter.sql" />
-    <Build Include="dbo\Views\Summary of Sales by Year.sql" />
-    <Build Include="dbo\Stored Procedures\InsertCustomer.sql" />
-    <Build Include="dbo\Stored Procedures\Ten Most Expensive Products.sql" />
-    <Build Include="dbo\Stored Procedures\Employee Sales by Country.sql" />
-    <Build Include="dbo\Stored Procedures\Sales by Year.sql" />
-    <Build Include="dbo\Stored Procedures\CustOrdersDetail.sql" />
-    <Build Include="dbo\Stored Procedures\CustOrdersOrders.sql" />
-    <Build Include="dbo\Stored Procedures\CustOrderHist.sql" />
-    <Build Include="dbo\Stored Procedures\SalesByCategory.sql" />
-    <Build Include="dbo\Stored Procedures\UpdateProductPrice.sql" />
-    <Build Include="dbo\Stored Procedures\InsertProduct.sql" />
-    <Build Include="Security\Permissions.sql" />
+    <Build Include="dbo\Tables\Orders_1.sql" />
+    <Build Include="dbo\Tables\Products_1.sql" />
+    <Build Include="dbo\Tables\TblOldCustomers.sql" />
+    <Build Include="dbo\Tables\Order Details_1.sql" />
+    <Build Include="dbo\Tables\CustomerCustomerDemo_1.sql" />
+    <Build Include="dbo\Tables\CustomerDemographics_1.sql" />
+    <Build Include="dbo\Tables\Region_1.sql" />
+    <Build Include="dbo\Tables\Territories_1.sql" />
+    <Build Include="dbo\Tables\EmployeeTerritories_1.sql" />
+    <Build Include="dbo\Tables\Employees_1.sql" />
+    <Build Include="dbo\Tables\Categories_1.sql" />
+    <Build Include="dbo\Tables\Customers_1.sql" />
+    <Build Include="dbo\Tables\Shippers_1.sql" />
+    <Build Include="dbo\Tables\Suppliers_1.sql" />
+    <Build Include="dbo\Views\Customer and Suppliers by City_1.sql" />
+    <Build Include="dbo\Views\Alphabetical list of products_1.sql" />
+    <Build Include="dbo\Views\Current Product List_1.sql" />
+    <Build Include="dbo\Views\Orders Qry_1.sql" />
+    <Build Include="dbo\Views\Products Above Average Price_1.sql" />
+    <Build Include="dbo\Views\Products by Category_1.sql" />
+    <Build Include="dbo\Views\Quarterly Orders_1.sql" />
+    <Build Include="dbo\Views\Invoices_1.sql" />
+    <Build Include="dbo\Views\Order Details Extended_1.sql" />
+    <Build Include="dbo\Views\Order Subtotals_1.sql" />
+    <Build Include="dbo\Views\Product Sales for 1997_1.sql" />
+    <Build Include="dbo\Views\Category Sales for 1997_1.sql" />
+    <Build Include="dbo\Views\Sales by Category_1.sql" />
+    <Build Include="dbo\Views\Sales Totals by Amount_1.sql" />
+    <Build Include="dbo\Views\Summary of Sales by Quarter_1.sql" />
+    <Build Include="dbo\Views\Summary of Sales by Year_1.sql" />
+    <Build Include="dbo\Stored Procedures\InsertCustomer_1.sql" />
+    <Build Include="dbo\Stored Procedures\Ten Most Expensive Products_1.sql" />
+    <Build Include="dbo\Stored Procedures\Employee Sales by Country_1.sql" />
+    <Build Include="dbo\Stored Procedures\Sales by Year_1.sql" />
+    <Build Include="dbo\Stored Procedures\CustOrdersDetail_1.sql" />
+    <Build Include="dbo\Stored Procedures\CustOrdersOrders_1.sql" />
+    <Build Include="dbo\Stored Procedures\CustOrderHist_1.sql" />
+    <Build Include="dbo\Stored Procedures\SalesByCategory_1.sql" />
+    <Build Include="dbo\Stored Procedures\UpdateProductPrice_1.sql" />
+    <Build Include="dbo\Stored Procedures\InsertProduct_1.sql" />
+    <Build Include="Security\Permissions_1.sql" />
+    <Build Include="Security\Permissions_2.sql" />
   </ItemGroup>
 </Project>
